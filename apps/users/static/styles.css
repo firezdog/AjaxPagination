@@ -1,0 +1,24 @@
+body {
+    margin: 5em;
+}
+
+.card {
+    width: 20em;
+}
+
+.currentPage {
+    color: blue;
+    outline: 1px solid blue;
+}
+
+#page-navigator:hover {
+    cursor: pointer;
+}
+
+#page-navigator span {
+    padding: 2px;
+}
+
+#page-navigator span:hover {
+    outline: 1px solid green;
+}
